@@ -15,8 +15,8 @@ RUN wget http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binaries/ap
   rm apache-maven-$MAVEN_VERSION-bin.tar.gz && \
   mv apache-maven-$MAVEN_VERSION /usr/lib/mvn
 
-RUN mvn –v
-RUN mvn clean package
+CMD mvn –v
+CMD mvn clean package
 
 RUN mv ./target/OpenShiftDemo* openshift.jar
 CMD java -jar openshift.jar
