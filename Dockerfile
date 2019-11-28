@@ -22,3 +22,4 @@ RUN ls
 RUN mv ./target/OpenShiftDemo* openshift.jar
 CMD java -jar openshift.jar
 EXPOSE 8080
+
