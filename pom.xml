@@ -55,5 +55,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 </project>
