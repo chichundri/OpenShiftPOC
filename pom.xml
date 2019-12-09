@@ -58,14 +58,12 @@
 	<distributionManagement>
   <repository>
     <id>nexus</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
     <uniqueVersion>true</uniqueVersion>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
   </snapshotRepository>
 </distributionManagement>
 
