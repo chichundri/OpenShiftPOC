@@ -57,12 +57,13 @@
 	</build>
 	<distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
+    <uniqueVersion>true</uniqueVersion>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
