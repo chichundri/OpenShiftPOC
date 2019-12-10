@@ -88,13 +88,6 @@
 				 </goals>
 			      </execution>
 			   </executions>
-			   <extensions>
-				 <extension>
-				     <groupId>org.apache.maven.wagon</groupId>
-				     <artifactId>wagon-http</artifactId>
-				     <version>3.3.4</version>
-				 </extension>
-		     	    </extension>
 			</plugin>
 		</plugins>
 	</build>
