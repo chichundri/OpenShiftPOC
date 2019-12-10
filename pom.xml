@@ -97,11 +97,6 @@
 	    <uniqueVersion>true</uniqueVersion>
 	    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
 	  </repository>
-	  <snapshotRepository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
 	</distributionManagement>
 
 </project>
