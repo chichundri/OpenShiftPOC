@@ -89,9 +89,16 @@
 	<distributionManagement>
 	  <repository>
 	    <id>nexus</id>
-	    <uniqueVersion>true</uniqueVersion>
-	    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+	    <name>nexus</name>
+	    <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/releases/</url>
 	  </repository>
+	  <snapshotRepository>
+	      <uniqueVersion>true</uniqueVersion>
+	      <id>nexus</id>
+	      <name>nexus</name>
+	      <url>http://ec2-54-175-161-158.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+	      <layout>legacy</layout>
+	    </snapshotRepository>
 	</distributionManagement>
 
 </project>
